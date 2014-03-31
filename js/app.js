@@ -50,3 +50,8 @@ App.ProductRoute = Ember.Route.extend({
 		//console.log(params);
 	}
 });
+
+App.Product = DS.Model.extend({
+  attr: DS.attr('string')
+});
+
